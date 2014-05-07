@@ -74,7 +74,7 @@
 #include <avr/pgmspace.h>
 #include <IPAddress.h>
 
-#if (ARDUINO >= 103)
+#if (ARDUINO >= 103 && ARDUINO < 105)
 typedef const char PROGMEM prog_char;
 #endif
 
